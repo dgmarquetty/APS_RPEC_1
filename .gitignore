@@ -1,9 +1,16 @@
-### IntelliJ IDEA ###
+##########################################
+#  IDEs e Ferramentas de Desenvolvimento
+##########################################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-### Eclipse ###
+# Eclipse
 .apt_generated
 .classpath
 .factorypath
@@ -15,25 +22,21 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
-### VS Code ###
+# Visual Studio Code
 .vscode/
 
-### Mac OS ###
-.DS_Store
+##########################################
+# Java / Build Tools
+##########################################
 
-# Minhas anotações
-/docs/
-
-######################################
-# ☕ Java
-######################################
+# Arquivos compilados e temporários
 *.class
 *.jar
 *.war
@@ -41,56 +44,38 @@ bin/
 *.log
 *.tmp
 *.swp
+*.pid
 
-# Arquivos gerados por compiladores
+# Diretórios comuns de build
 bin/
 target/
-out/
-
-######################################
-# 🤖 IntelliJ IDEA
-######################################
-.idea/
-*.iml
-*.iws
-
-# Arquivos do sistema de build
-*.gradle
-.gradle/
 build/
+.gradle/
+*.gradle
 
-######################################
-# 🐳 Docker
-######################################
-*.pid
-docker-compose.override.yml
-.env
+##########################################
+# Sistema Operacional
+##########################################
 
-######################################
-# 👨‍💻 VS Code
-######################################
-.vscode/
-
-######################################
-# 🍏 Mac OS (arquivos invisíveis)
-######################################
+# Mac OS
 .DS_Store
 
-######################################
-# 🗂️ NetBeans (caso use)
-######################################
-nbproject/private/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+##########################################
+# ⚠Arquivos Pessoais / Documentação
+##########################################
 
-######################################
-# 📒 Anotações pessoais
-######################################
+# Pastas pessoais
 docs/
 anotacoes/
 
-# Se tiver arquivos soltos
-*.md
+# Arquivos soltos (de anotação pessoal)
 *.txt
+
+##########################################
+# 🛠️ Outros arquivos temporários
+##########################################
+
+# Backups e temporários de editores
+*~
+*.bak
+*.swo
