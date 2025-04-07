@@ -3,6 +3,7 @@
 
 > Disciplina: Resolução de Problemas Estruturados em Computação  
 > Universidade: PUCPR 
+> 
 > Prof: Andrey Cabral Meira
 > Aluno: dgmarquetty  
 > Tema: Estruturas de Dados — Pilha, Fila, Merge com Listas e Vetores
