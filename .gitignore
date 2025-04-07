@@ -1,0 +1,96 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Minhas anotações
+/docs/
+
+######################################
+# ☕ Java
+######################################
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.swp
+
+# Arquivos gerados por compiladores
+bin/
+target/
+out/
+
+######################################
+# 🤖 IntelliJ IDEA
+######################################
+.idea/
+*.iml
+*.iws
+
+# Arquivos do sistema de build
+*.gradle
+.gradle/
+build/
+
+######################################
+# 🐳 Docker
+######################################
+*.pid
+docker-compose.override.yml
+.env
+
+######################################
+# 👨‍💻 VS Code
+######################################
+.vscode/
+
+######################################
+# 🍏 Mac OS (arquivos invisíveis)
+######################################
+.DS_Store
+
+######################################
+# 🗂️ NetBeans (caso use)
+######################################
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+######################################
+# 📒 Anotações pessoais
+######################################
+docs/
+anotacoes/
+
+# Se tiver arquivos soltos
+*.md
+*.txt
